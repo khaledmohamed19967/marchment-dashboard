@@ -1,75 +1,21 @@
-# Nuxt 3 Minimal Starter
+# Merchant Dashboard Pages
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This repository contains the design and implementation of the Profile and Credit Card pages for the merchant dashboard, as per the provided Product Review Document (PRD).
 
-## Setup
+## Technology Stack
 
-Make sure to install the dependencies:
+- Nuxt.js 3
+- Pinia for state management
 
-```bash
-# npm
-npm install
+## Project Structure
 
-# pnpm
-pnpm install
+- `/pages/profile.vue`: Contains the Profile page implementation.
+- `/pages/credit-card.vue`: Contains the Credit Card page implementation.
 
-# yarn
-yarn install
+## Getting Started
 
-# bun
-bun install
-```
+1. Clone the repository.
+2. Install dependencies using `npm install`.
+3. Run the project locally using `npm run dev`.
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Happy Coding!
